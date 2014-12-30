@@ -23,6 +23,8 @@
 		9469D3081A4A3C5A004E28E1 /* Lioness.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 9469D3001A4A3C5A004E28E1 /* Lioness.jpeg */; };
 		9469D3091A4A3C5A004E28E1 /* MalayanTiger.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9469D3011A4A3C5A004E28E1 /* MalayanTiger.jpg */; };
 		9469D30A1A4A3C5A004E28E1 /* SiberianTiger.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9469D3021A4A3C5A004E28E1 /* SiberianTiger.jpg */; };
+		9469D3861A520714004E28E1 /* Lion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9469D3851A520714004E28E1 /* Lion.swift */; };
+		9469D3881A522967004E28E1 /* LionCub.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9469D3871A522967004E28E1 /* LionCub.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +58,8 @@
 		9469D3001A4A3C5A004E28E1 /* Lioness.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Lioness.jpeg; sourceTree = "<group>"; };
 		9469D3011A4A3C5A004E28E1 /* MalayanTiger.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = MalayanTiger.jpg; sourceTree = "<group>"; };
 		9469D3021A4A3C5A004E28E1 /* SiberianTiger.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = SiberianTiger.jpg; sourceTree = "<group>"; };
+		9469D3851A520714004E28E1 /* Lion.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Lion.swift; sourceTree = "<group>"; };
+		9469D3871A522967004E28E1 /* LionCub.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LionCub.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +104,8 @@
 				9469D2D51A4A37C9004E28E1 /* AppDelegate.swift */,
 				9469D2DA1A4A37C9004E28E1 /* ViewController.swift */,
 				9469D2F81A4A3A68004E28E1 /* Tiger.swift */,
+				9469D3851A520714004E28E1 /* Lion.swift */,
+				9469D3871A522967004E28E1 /* LionCub.swift */,
 				9469D2DC1A4A37C9004E28E1 /* Main.storyboard */,
 				9469D2DF1A4A37C9004E28E1 /* Images.xcassets */,
 				9469D2E11A4A37C9004E28E1 /* LaunchScreen.xib */,
@@ -258,10 +264,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9469D3881A522967004E28E1 /* LionCub.swift in Sources */,
 				9469D2DB1A4A37C9004E28E1 /* ViewController.swift in Sources */,
 				9469D2F91A4A3A68004E28E1 /* Tiger.swift in Sources */,
 				9469D2D61A4A37C9004E28E1 /* AppDelegate.swift in Sources */,
 				9469D2D91A4A37C9004E28E1 /* LionsAndTigers.xcdatamodeld in Sources */,
+				9469D3861A520714004E28E1 /* Lion.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -455,6 +463,7 @@
 				9469D2F41A4A37CA004E28E1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9469D2F51A4A37CA004E28E1 /* Build configuration list for PBXNativeTarget "LionsAndTigersTests" */ = {
 			isa = XCConfigurationList;
@@ -463,6 +472,7 @@
 				9469D2F71A4A37CA004E28E1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
